@@ -70,8 +70,8 @@ public class Calculator{
 
         boolean continueOperation = true;
         while(continueOperation){
-            String response = scan.next().trim().toLowerCase();
             System.out.println("Do you want to continue?");
+            String response = scan.next().trim().toLowerCase();
             if(response.equalsIgnoreCase("no")){
                 calculating = false;
                 continueOperation = false;
